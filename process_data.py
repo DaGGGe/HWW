@@ -1,7 +1,7 @@
 """розрахунок заявок на товари по магазину
 """
 
-from data_service import get_clients, get_orders
+from data_service import get_clients , get_orders
 
 # структура рядка розрахункової таблиці
 zajavka = {
@@ -14,7 +14,7 @@ zajavka = {
     'total'        : 0.0      # сума
 }
 
-def create_zajvka_list():
+def create_zajavka_list():
     """формування списку заявок по магазину на основі вхідних файлів
     """
     
